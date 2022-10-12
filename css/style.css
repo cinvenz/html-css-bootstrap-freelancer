@@ -29,5 +29,18 @@ body {
 }
 
 .btn-send {
-	background-color: greenyellow;
+	background-color: rgba(26,188,156,255);
+    border: 0;
 }
+
+.input_fix {
+    border-radius: 0;
+    box-shadow: 0;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+}
+
+.input_message {
+    margin-top: 5rem;
+}
+
