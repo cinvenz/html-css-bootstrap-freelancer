@@ -27,24 +27,38 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- inizio header -->
-	<header class="header-page text-white">
-		<nav class="nav-top text-uppercase">
-			<div class="container d-flex justify-content-between align-items-center h-100">
-				<div class="logo">Start bootstrap</div>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand " href="#">START BOOTSTRAP</a>
 
-				<div class="btn-hamburger d-sm-none">
-					<i class="bi bi-list"></i>
-				</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase text-white" href="#">portfolio</a>
+                </li>
 
-				<ul class="nav-list list-inline d-none d-sm-flex mb-0">
-					<li class="ps-4"><a href="#!">Portfolio</a></li>
-					<li class="ps-4"><a href="#!">About</a></li>
-					<li class="ps-4"><a href="#!">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase text-white" href="#">about</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase text-white" href="#">contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+        </nav>
+      
+
+    <!-- header -->
+    <header class="header-page">
 		<section class="container py-4 text-center text-uppercase">
 			<img class="col-3 mb-3" src="img/avatar.svg" alt="">
 			<h1>Start bootstrap</h1>
@@ -155,7 +169,7 @@
 		</div>
     </section>
 
-    <section class="location container text-center py-4 text-white">
+    <section class="location text-center py-4 text-white">
         <div class="row cols-3">
             <div class="col-12 col-sm-4 mb-4">
                 <p class="text-uppercase m-0">Location</p>
@@ -187,7 +201,7 @@
         </div>
     </section>
 
-    <section class="copyright container p-4 text-white text-center">
+    <section class="copyright p-4 text-white text-center">
         <div class="row">
             
             <div class="col-12 mt-3">
