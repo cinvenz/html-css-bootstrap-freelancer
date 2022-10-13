@@ -25,12 +25,13 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 2rem;
+	/* margin-bottom: 2rem; */
+	
 }
 
 .bi-star-fill {
 	font-size: 1.5rem;
-	margin-bottom: -1rem;
+	margin-top: -0.8rem;
 }
 
 .bi-dash-lg {
@@ -100,6 +101,8 @@ body {
 
 .div_star {
 	flex-basis: 13%;
-	border-bottom: 5px solid;
+	border: 3px solid;
+	height: 3px;
+	border-radius: 20px;
 	
 }
