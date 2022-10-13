@@ -1,5 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
 }
 
 .header-page {
@@ -14,6 +15,14 @@ body {
 	display: inline-block;
 	height: 100px;
 	background-color: white;
+}
+
+.star {
+	width: 100%;
+}
+
+.bi-dash-lg {
+	stroke-width: 6;
 }
 
 .bl_card {
