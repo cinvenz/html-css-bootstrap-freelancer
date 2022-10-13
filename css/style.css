@@ -23,6 +23,14 @@ body {
 
 .star {
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.bi-star-fill {
+	font-size: 1.5rem;
+	margin-bottom: -1rem;
 }
 
 .bi-dash-lg {
@@ -88,4 +96,10 @@ body {
 
 .copyright {
     background-color: rgba(44,62,80,255);
+}
+
+.div_star {
+	flex-basis: 13%;
+	border-bottom: 5px solid;
+	
 }
