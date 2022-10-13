@@ -3,6 +3,10 @@ body {
 	padding-top: 50px;
 }
 
+.row {
+	margin-right: 0;
+}
+
 .header-page {
 	background-color: #1ABC9C;
 }
