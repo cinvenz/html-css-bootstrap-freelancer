@@ -6,9 +6,8 @@ body {
 	background-color: #1ABC9C;
 }
 
-.nav-top {
-	background-color: #2C3E50;
-	height: 3rem;
+.nav-link:hover {
+	color: #1ABC9C !important ;
 }
 
 .img-profile {
