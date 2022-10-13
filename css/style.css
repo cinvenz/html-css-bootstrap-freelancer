@@ -19,9 +19,28 @@ body {
 
 .bl_card {
 	height: 100%;
-	background-color: salmon;
+	background-color: green;
 	border-radius: 2rem;
 	overflow: hidden;
+	position: relative;
+}
+
+.bl_card:hover img {
+	opacity: 0.5;
+}
+
+.fa-plus {
+	position: absolute;
+	font-size: 5rem;
+	z-index: -1;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.bl_card:hover i {
+	z-index: 4;
 }
 
 .about {
